@@ -18,7 +18,7 @@ export default class MovieList extends Component {
         this.setState({
           movies: res.data
         })
-      })
+      }) 
       .catch(err => {
         console.log(err)
       })
